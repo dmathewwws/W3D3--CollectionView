@@ -13,6 +13,9 @@
 		1231D3981BA0832D00023F1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1231D3961BA0832D00023F1F /* Main.storyboard */; };
 		1231D39A1BA0832D00023F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1231D3991BA0832D00023F1F /* Assets.xcassets */; };
 		1231D39D1BA0832D00023F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1231D39B1BA0832D00023F1F /* LaunchScreen.storyboard */; };
+		84AC426C1D92EC30009A7998 /* CustomCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AC426B1D92EC30009A7998 /* CustomCollectionReusableView.m */; };
+		84AC426F1D92EC4B009A7998 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AC426E1D92EC4B009A7998 /* CollectionViewCell.m */; };
+		84AC42721D92F19D009A7998 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AC42711D92F19D009A7998 /* CollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		1231D3991BA0832D00023F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1231D39C1BA0832D00023F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1231D39E1BA0832D00023F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AC426A1D92EC30009A7998 /* CustomCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionReusableView.h; sourceTree = "<group>"; };
+		84AC426B1D92EC30009A7998 /* CustomCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionReusableView.m; sourceTree = "<group>"; };
+		84AC426D1D92EC4B009A7998 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		84AC426E1D92EC4B009A7998 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		84AC42701D92F19D009A7998 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		84AC42711D92F19D009A7998 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,12 @@
 				1231D3931BA0832D00023F1F /* ViewController.h */,
 				1231D3941BA0832D00023F1F /* ViewController.m */,
 				1231D3961BA0832D00023F1F /* Main.storyboard */,
+				84AC42701D92F19D009A7998 /* CollectionViewController.h */,
+				84AC42711D92F19D009A7998 /* CollectionViewController.m */,
+				84AC426D1D92EC4B009A7998 /* CollectionViewCell.h */,
+				84AC426E1D92EC4B009A7998 /* CollectionViewCell.m */,
+				84AC426A1D92EC30009A7998 /* CustomCollectionReusableView.h */,
+				84AC426B1D92EC30009A7998 /* CustomCollectionReusableView.m */,
 				1231D3991BA0832D00023F1F /* Assets.xcassets */,
 				1231D39B1BA0832D00023F1F /* LaunchScreen.storyboard */,
 				1231D39E1BA0832D00023F1F /* Info.plist */,
@@ -150,7 +165,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1231D3951BA0832D00023F1F /* ViewController.m in Sources */,
+				84AC426F1D92EC4B009A7998 /* CollectionViewCell.m in Sources */,
+				84AC42721D92F19D009A7998 /* CollectionViewController.m in Sources */,
 				1231D3921BA0832D00023F1F /* AppDelegate.m in Sources */,
+				84AC426C1D92EC30009A7998 /* CustomCollectionReusableView.m in Sources */,
 				1231D38F1BA0832D00023F1F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +316,7 @@
 				1231D3A31BA0832D00023F1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
